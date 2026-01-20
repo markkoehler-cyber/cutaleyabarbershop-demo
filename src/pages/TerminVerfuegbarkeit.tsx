@@ -35,9 +35,9 @@ const TerminVerfuegbarkeit = () => {
 
   // Generate time options from 09:00 to 19:00
   const allTimeOptions: string[] = [];
-  for (let hour = 9; hour <= 19; hour++) {
+  for (let hour = 10; hour <= 20; hour++) {
     allTimeOptions.push(`${hour.toString().padStart(2, '0')}:00`);
-    if (hour < 19) {
+    if (hour < 20) {
       allTimeOptions.push(`${hour.toString().padStart(2, '0')}:30`);
     }
   }
@@ -208,7 +208,7 @@ const TerminVerfuegbarkeit = () => {
                           ))}
                         </SelectContent>
                       </Select>
-                      <p className="text-xs text-muted-foreground">Öffnungszeiten: 09:00 – 20:00 Uhr</p>
+                      <p className="text-xs text-muted-foreground">Öffnungszeiten: 10:00 – 20:00 Uhr</p>
                     </div>
 
                     {/* Submit Button */}
