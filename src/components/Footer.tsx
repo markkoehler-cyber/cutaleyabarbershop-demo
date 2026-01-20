@@ -82,11 +82,11 @@ export const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex justify-between text-muted-foreground">
                 <span>Montag - Freitag</span>
-                <span className="text-foreground">09:00 - 20:00</span>
+                <span className="text-foreground">10:00 - 20:00</span>
               </li>
               <li className="flex justify-between text-muted-foreground">
                 <span>Samstag</span>
-                <span className="text-foreground">09:00 - 20:00</span>
+                <span className="text-foreground">10:00 - 20:00</span>
               </li>
               <li className="flex justify-between text-muted-foreground">
                 <span>Sonntag</span>
