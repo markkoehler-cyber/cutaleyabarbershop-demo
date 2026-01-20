@@ -149,7 +149,7 @@ const TerminBuchen = () => {
   return (
     <>
       <Helmet>
-        <title>Termin buchen | FB Barbershop Wien</title>
+        <title>Termin buchen | Cutaleya Barbershop Wien</title>
         <meta 
           name="description" 
           content="Buchen Sie jetzt Ihren Termin bei The Gentleman's Cut Berlin." 
